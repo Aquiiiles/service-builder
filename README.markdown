@@ -40,7 +40,7 @@
 		-e LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_USERNAME="test" \
 		-it \
 		-p 8080:8080 \
-		liferay/dxp:2025.q1.2-lts
+		liferay/portal:7.4.3.120-ga120
 	```
 
 	Notice the name given to the Liferay container and how it is linked to the MySQL container.
