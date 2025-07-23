@@ -83,7 +83,7 @@
 
 1. Create and go to a directory called ***my-service-builder-project***. Follow the steps in [Set Up an OSGi Project](https://github.com/liferay/liferay-basic-training/tree/master/docs/osgi#set-up-an-osgi-project).
 
-   Don't use ***echo "liferay.workspace.product=portal-7.4-ga90" > gradle.properties*** use ***echo "liferay.workspace.product-dxp2025.q1.2-lts" > gradle.properties*** in the osgi step.
+   Don't use ***echo "liferay.workspace.product=portal-7.4-ga90" > gradle.properties*** use ***echo "liferay.workspace.product=dxp2025.q1.2-lts" > gradle.properties*** in the osgi step.
 
 1. Type ***mkdir -p h7g5-api***. The prefix ***h7g5*** is just a random name used for this tutorial.
 
