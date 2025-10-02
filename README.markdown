@@ -40,7 +40,7 @@
 		-e LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_USERNAME="test" \
 		-it \
 		-p 8080:8080 \
-		liferay/dxp:2025.q1.2-lts
+		liferay/portal:7.4.3.132-ga132
 	```
 
 	Notice the name given to the Liferay container and how it is linked to the MySQL container.
@@ -83,7 +83,7 @@
 
 1. Create and go to a directory called ***my-service-builder-project***. Follow the steps in [Set Up an OSGi Project](https://github.com/liferay/liferay-basic-training/tree/master/docs/osgi#set-up-an-osgi-project).
 
-   Don't use ***echo "liferay.workspace.product=portal-7.4-ga90" > gradle.properties*** use ***echo "liferay.workspace.product=dxp2025.q1.2-lts" > gradle.properties*** in the osgi step.
+   Don't use ***echo "liferay.workspace.product=portal-7.4-ga90" > gradle.properties*** use ***echo "liferay.workspace.product=portal:7.4.3.132" > gradle.properties*** in the osgi step.
 
 1. Type ***mkdir -p h7g5-api***. The prefix ***h7g5*** is just a random name used for this tutorial.
 
@@ -99,7 +99,7 @@
 
 	```
 	dependencies {
-		compileOnly group: "com.liferay.portal", name: "release.dxp.api", version: "2025.q1.2"
+		compileOnly group: "com.liferay.portal", name: "release.portal.api", version: "7.4.3.132"
 	}
 	```
 
@@ -126,7 +126,7 @@
 	}
 
 	dependencies {
-		compileOnly group: "com.liferay.portal", name: "release.dxp.api", version: "2025.q1.2"
+		compileOnly group: "com.liferay.portal", name: "release.portal.api", version: "7.4.3.132"
 		compileOnly project(":h7g5-api")
 	}
 
@@ -475,7 +475,7 @@
 
 	```
 	dependencies {
-		compileOnly group: "com.liferay.portal", name: "release.dxp.api", version: "2025.q1.2"
+		compileOnly group: "com.liferay.portal", name: "release.portal.api", version: "7.4.3.132"
 		compileOnly project(":h7g5-api")
 	}
 	```
