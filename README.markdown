@@ -475,7 +475,7 @@
 
 	```
 	dependencies {
-		compileOnly group: "com.liferay.portal", name: "release.dxp.api", version: "2025.q1.2"
+		compileOnly group: "com.liferay.portal", name: "release.portal.api", version: "7.4.3.132"
 		compileOnly project(":h7g5-api")
 	}
 	```
