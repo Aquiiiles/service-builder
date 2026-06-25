@@ -701,7 +701,7 @@
 
 1. Go to http://localhost:8080/api/jsonws. Under ***Context Name***, go to for ***ohqiwtsfhl***.
 
-	1. Follow the [Invoking JSON Web Services](https://help.liferay.com/hc/en-us/articles/360017899652-Invoking-JSON-Web-Services) tutorial.
+	1. Follow the [Invoking JSON Web Services](https://learn.liferay.com/w/dxp/integration/headless-apis/using-liferay-as-a-headless-platform/consuming-apis/configuring-json-web-services) tutorial.
 
 	1. Use curl to invoke JSONWS.
 	
