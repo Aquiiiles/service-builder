@@ -632,7 +632,7 @@
 
 	A local service should never check for permissions and can only be invoked by other OSGi modules.
 
-	A remote service may check for permissions and can be invoked by other OSGi modules and via [JSONWS](https://help.liferay.com/hc/en-us/articles/360017899652-Invoking-JSON-Web-Services).
+	A remote service may check for permissions and can be invoked by other OSGi modules and via [JSONWS](https://learn.liferay.com/w/dxp/integration/headless-apis/using-liferay-as-a-headless-platform/consuming-apis/configuring-json-web-services).
 
 1. Open up ***H7G5FolderLocalService.java*** and ***H7G5FolderLocalServiceImpl.java***.
 
